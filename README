@@ -1,0 +1,8 @@
+*DSSwitch*
+
+A UISwitch subclass that allows for a custom icon to be placed on the switch button.
+
+*example*
+
+DSSwitch *s = [[DSSwitch alloc] initWithFrame:CGRectZero];
+[s setIcon:@"alert-icon.png"];
