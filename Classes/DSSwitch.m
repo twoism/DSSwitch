@@ -22,7 +22,7 @@
 	UIImage *img					= [UIImage imageNamed:imgName];
 	UIImageView *iv				= [[UIImageView alloc] initWithImage:img];
 	CGRect containerFrame = [[self buttonContainer] frame];
-	iv.frame = CGRectMake((containerFrame.size.width/2)-(img.size.width/2), (containerFrame.size.height/2)-(img.size.height/2), img.size.width, img.size.height);
+	iv.frame							= CGRectMake((containerFrame.size.width/2)-(img.size.width/2), (containerFrame.size.height/2)-(img.size.height/2), img.size.width, img.size.height);
 	[[self buttonContainer] addSubview:iv];
 	[iv release];
 }
